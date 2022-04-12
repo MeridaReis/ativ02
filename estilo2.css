@@ -1,0 +1,45 @@
+.corpo{
+    margin: 0;
+}
+
+.app{
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "rosa azul verde"
+    "azulclaro azul verde "
+    "vermelho vermelho vermelho";
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr;
+    grid-gap: 15px 10px;
+}
+
+.rosa{
+    grid-area: rosa;
+    border: 2px black;
+    background-color: rgb(194, 27, 144);
+}
+
+.azulclaro{
+    grid-area: azulclaro;
+    border: 2px black;
+    background-color: aqua;
+}
+
+.verde{
+grid-area: verde;
+    border: 2px black;
+    background-color: green;
+}
+
+.azul{
+grid-area: azul;
+    border: 2px black;
+    background-color: blue;
+}
+
+.vermelho{
+grid-area: vermelho;
+    border: 2px black;
+    background-color: red;
+}
